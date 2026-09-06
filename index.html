@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Cheng Yang's academic homepage — research in visual intelligence, 3D/4D vision, world models, and embodied AI." />
     <meta name="theme-color" content="#f6f8fb" />
-    <title>Cheng Yang — Research</title>
+    <title>Cheng Yang</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -20,26 +20,26 @@
           <a href="#publications">Publications</a>
           <a href="#experience">Experience</a>
         </nav>
-        <a class="header-contact" href="mailto:your-email@domain.edu">Email <span aria-hidden="true">↗</span></a>
+        <a class="header-contact" href="mailto:chengya@uchicago.edu">Email <span aria-hidden="true">↗</span></a>
       </div>
     </header>
 
     <main id="main">
       <section class="hero" id="about">
         <div class="hero-copy reveal">
-          <p class="eyebrow">Computer Vision · Machine Learning</p>
+          <p class="eyebrow">Computer Vision · Machine Learning · Robotics</p>
           <h1>Cheng Yang</h1>
           <p class="hero-lede">
             I study how visual systems can understand, generate, and interact with a changing world.
           </p>
           <p class="hero-bio">
-            I am an M.S. student at the University of Chicago and a research intern at the GRASP Laboratory,
+            I am an M.S. student at the University of Chicago and a research intern at the <a href="https://jiataogu.me/team/" target="_blank" rel="noreferrer">GMLR Lab</a>,
             University of Pennsylvania. My work spans <strong>3D/4D vision</strong>, <strong>video and world models</strong>,
-            and <strong>embodied intelligence</strong>.
+            and <strong>embodied intelligence</strong>. I also have been fortunate to collaborate with Prof. <a href="https://www.cs.uchicago.edu/~mmaire/" target="_blank" rel="noreferrer">Michael Maire</a>, Prof. <a href="https://anandbhattad.github.io/" target="_blank" rel="noreferrer">Anand Bhattad</a>, Prof. <a href="http://luthuli.cs.uiuc.edu/~daf/" target="_blank" rel="noreferrer">David Forsyth</a> and Prof. <a href="https://jiataogu.me/" target="_blank" rel="noreferrer">Jiatao Gu</a>.
           </p>
           <div class="hero-links" aria-label="Profile links">
-            <a class="primary-link" href="mailto:your-email@domain.edu">Get in touch <span aria-hidden="true">↗</span></a>
-            <a href="#" aria-label="CV placeholder; replace this link with your CV PDF">CV <span class="replace-tag">add PDF</span></a>
+            <a class="primary-link" href="mailto:chengya@uchicago.edu">Get in touch <span aria-hidden="true">↗</span></a>
+            <a href="#" aria-label="CV placeholder; replace this link with your CV PDF">CV</a>
             <a href="#" aria-label="Google Scholar placeholder; replace this link">Google Scholar</a>
             <a href="https://github.com/ChengY-uchi" target="_blank" rel="noreferrer">GitHub</a>
           </div>
@@ -48,12 +48,13 @@
         <aside class="portrait-wrap reveal reveal-late" aria-label="Portrait placeholder">
           <div class="portrait-placeholder">
             <div class="portrait-initials" aria-hidden="true">CY</div>
+            <img src="./assets/imgs/myself.png" alt="Portrait of Cheng Yang" />
             <div class="portrait-note">
-              <span>Portrait</span>
-              <small>Replace with a 4:5 photo</small>
+              <!-- <span>Portrait</span>
+              <small>Replace with a 4:5 photo</small> -->
             </div>
           </div>
-          <p class="portrait-caption">Philadelphia / Chicago</p>
+          <p class="portrait-caption">San Diego</p>
         </aside>
 
         <div class="hero-index" aria-hidden="true">
@@ -75,14 +76,14 @@
             <p>Learning visual dynamics that are controllable, physically meaningful, and useful beyond generation.</p>
           </article>
           <article class="research-item reveal reveal-late">
-            <span class="research-code">4D</span>
+            <span class="research-code">3DV</span>
             <h3>3D / 4D Vision</h3>
             <p>Representing dynamic scenes in ways that support reconstruction, tracking, editing, and reasoning.</p>
           </article>
           <article class="research-item reveal reveal-later">
             <span class="research-code">A</span>
             <h3>Embodied Intelligence</h3>
-            <p>Transferring visual knowledge and action structure across tasks, scenes, and embodiments.</p>
+            <p>Studying how embodied agents perceive, reason about, and interact with complex, dynamic environments.</p>
           </article>
         </div>
       </section>
@@ -97,38 +98,46 @@
         <div class="publication-list">
           <!-- Duplicate a publication article to add another paper. -->
           <article class="publication reveal">
-            <div class="publication-visual paper-blue" role="img" aria-label="Paper thumbnail placeholder">
-              <span>Paper visual</span>
-              <small>Recommended 16:10 image or GIF</small>
+            <div class="publication-visual paper-blue has-image publication-gallery">
+              <img src="./assets/imgs/flowers_demo.gif" alt="Paper visual, upper view" />
+              <img src="./assets/imgs/microphone_demo.gif" alt="Paper visual, lower view" />
             </div>
             <div class="publication-copy">
-              <p class="venue">VENUE · YEAR</p>
-              <h3>Paper title goes here: use one clear line for the central idea</h3>
-              <p class="authors"><strong>Cheng Yang</strong>, Collaborator One, Collaborator Two, Advisor Name</p>
-              <p class="paper-summary">A concise one- or two-sentence explanation of the problem, method, and most important result.</p>
+              <p class="venue">Under review at 3DV 2027 · 2026</p>
+              <h3>Semantic and Mechanics Foam Fields for Physics-aware Editing</h3>
+              <p class="authors"><strong>Cheng Yang</strong>, 
+                <a href="https://scholar.google.com/citations?user=SacEpXoAAAAJ&hl=en" target="_blank" rel="noreferrer">Will Gao</a>,
+                <a href="http://luthuli.cs.uiuc.edu/~daf/" target="_blank" rel="noreferrer">David Forsyth</a>,
+                <a href="https://anandbhattad.github.io/" target="_blank" rel="noreferrer">Anand Bhattad</a>,
+                <a href="https://people.cs.uchicago.edu/~mmaire/" target="_blank" rel="noreferrer">Michael Maire</a>
+              </p>
+              <p class="paper-summary">A shared PowerFoam cell graph unifies semantic and mechanics inference with native physics-aware editing.</p>
               <div class="paper-links">
-                <a href="#">Project page</a><a href="#">Paper</a><a href="#">Code</a>
+                <!-- <a href="#">Project page</a><a href="#">Paper</a><a href="#">Code</a> -->
+                 <a coming soon href="#">Project page</a><a coming soon href="#">Paper</a><a coming soon href="#">Code</a>
               </div>
             </div>
           </article>
 
           <article class="publication reveal">
-            <div class="publication-visual paper-cyan" role="img" aria-label="Paper thumbnail placeholder">
-              <span>Paper visual</span>
-              <small>Use a result that reads at small size</small>
+            <div class="publication-visual paper-blue has-image" role="img" aria-label="Paper thumbnail placeholder">
+              <img src="./assets/imgs/AAAI2027.png" alt="Paper visual" />
             </div>
             <div class="publication-copy">
-              <p class="venue">VENUE · YEAR</p>
-              <h3>Second paper title — a distinct research contribution</h3>
-              <p class="authors"><strong>Cheng Yang</strong>, Collaborator One, Collaborator Two</p>
-              <p class="paper-summary">Lead with what is technically new rather than a broad topic description.</p>
+              <p class="venue">Under review at AAAI 2027 · 2026</p>
+              <h3>PAVE: Prompt-Aligned Video Exploration via Training-Free Inpainting-to-Video World Model</h3>
+              <p class="authors"><strong>Cheng Yang</strong>, 
+                <a href="https://github.com/chenshi3" target="_blank" rel="noreferrer">Chen Shi</a>,
+                <a href="https://llijiang.github.io/" target="_blank" rel="noreferrer">Li Jiang</a>
+              </p>
+              <p class="paper-summary">We present PAVE, a training-free framework that uses geometric future anchors to combine the precise content control of image inpainting with the visual and geometric consistency of video world models for long-horizon world generation.</p>
               <div class="paper-links">
-                <a href="#">Project page</a><a href="#">Paper</a><a href="#">Code</a>
+                <a coming soon href="#">Project page</a><a coming soon href="#">Paper</a><a coming soon href="#">Code</a>
               </div>
             </div>
           </article>
 
-          <article class="publication reveal">
+          <!-- <article class="publication reveal">
             <div class="publication-visual paper-slate" role="img" aria-label="Paper thumbnail placeholder">
               <span>Paper visual</span>
               <small>Static image, teaser, or short video</small>
@@ -142,7 +151,7 @@
                 <a href="#">Project page</a><a href="#">Preprint</a><a href="#">Demo</a>
               </div>
             </div>
-          </article>
+          </article> -->
         </div>
       </section>
 
@@ -153,14 +162,19 @@
         </div>
         <div class="timeline">
           <article class="timeline-row reveal">
-            <p class="timeline-date">2026 — Present</p>
+            <p class="timeline-date">2025 — Present</p>
             <div><h3>University of Chicago</h3><p>M.S. in Computer Science · Research with Prof. Michael Maire</p></div>
             <span>Chicago, IL</span>
           </article>
           <article class="timeline-row reveal">
             <p class="timeline-date">Summer 2026</p>
-            <div><h3>GRASP Laboratory, University of Pennsylvania</h3><p>Research Intern · World models and embodied intelligence</p></div>
+            <div><h3>GMLR Lab, University of Pennsylvania</h3><p>Research Intern · World models and embodied intelligence</p></div>
             <span>Philadelphia, PA</span>
+          </article>
+          <article class="timeline-row reveal">
+            <p class="timeline-date">Summer 2025</p>
+            <div><h3>School of Data Science, The Chinese University of Hong Kong (Shenzhen)</h3><p>Research Intern · 3DGS and world models</p></div>
+            <span>Shenzhen, China</span>
           </article>
           <article class="timeline-row reveal">
             <p class="timeline-date">Earlier</p>
@@ -174,13 +188,13 @@
         <p class="section-number">05 / Contact</p>
         <div class="contact-line">
           <h2>Let’s talk about research.</h2>
-          <a href="mailto:your-email@domain.edu">your-email@domain.edu <span aria-hidden="true">↗</span></a>
+          <a href="mailto:chengya@uchicago.edu">chengya@uchicago.edu <span aria-hidden="true">↗</span></a>
         </div>
       </section>
     </main>
 
     <footer>
-      <p>© <span id="year"></span> Cheng Yang</p>
+      <p>© <span id="year"></span> Cheng Yang & GPT</p>
       <a href="#top">Back to top ↑</a>
     </footer>
 
