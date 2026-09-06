@@ -1,5 +1,11 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
+document.querySelector(".back-to-top")?.addEventListener("click", (event) => {
+  event.preventDefault();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  history.replaceState(null, "", "#top");
+});
+
 const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 const revealItems = document.querySelectorAll(".reveal");
 
