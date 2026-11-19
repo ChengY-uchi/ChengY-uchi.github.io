@@ -296,6 +296,15 @@ h1 {
   object-fit: contain;
   display: block;
 }
+.publication-visual video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: #fff;
+}
 .paper-blue { background: linear-gradient(145deg, #173b94, #2b65ef); }
 .paper-cyan { background: linear-gradient(145deg, #087d98, #58d2e6); }
 .paper-slate { background: linear-gradient(145deg, #26344e, #71819d); }
